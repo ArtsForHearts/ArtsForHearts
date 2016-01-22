@@ -34,13 +34,14 @@ p{
 }
 
 .banner {
-	height: 240px;
+	/*height: 240px;*/
     max-width: 760px;
+    height:auto;
     margin: 25px auto;
-    background: url("http://rramsland.github.io/ArtsForHearts/images/Banner.jpg");
+    /*background: url("http://rramsland.github.io/ArtsForHearts/images/Banner.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
 }
 
 .site-title {
