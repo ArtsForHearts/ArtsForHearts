@@ -1,0 +1,385 @@
+body {
+	background-color: white;
+	font-family: 'Open Sans', serif;
+	font-weight: 400;
+	line-height: 1.45;
+	color: #333;
+	margin:0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	/*max-width: 1000px;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 500;
+}
+
+p{
+	max-width: 750px;
+	margin: 15px auto;
+	font-family: georgia;
+}
+
+.main-content .container {
+	margin: 0 auto;
+	padding: 0 25px;
+}
+
+.banner {
+	height: 240px;
+    max-width: 760px;
+    margin: 25px auto;
+    background: url("images/homeCover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.site-title {
+	text-align: center;
+	font-size: 2em;
+	text-decoration: none;
+	display: block;
+	font-family: 'Cinzel Decorative', cursive;
+	color:black;
+}
+
+.menuButton {
+	height: 26px;
+	background: lightgray;
+	text-align: center;
+	display:none;
+}
+
+.navbar {
+	margin: 25px auto;
+	clear: both;
+	max-width: 780px;
+	overflow: hidden;
+	border-radius: 4px;
+	font-size: 0;
+}
+
+.header-nav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.header-nav li {
+	display: inline-block;
+	width: 19%;
+	text-align: center;
+	margin: .5%;
+	background: rgb(216, 56, 56);
+	box-shadow: inset 0 0 24px 8px rgba(255, 255, 255, 0.09);
+}
+
+.header-nav li a {
+	text-decoration: none;
+	color: #FAFAFA;
+	padding: 4px;
+	display: block;
+	font-size: 16px;
+	white-space: nowrap;
+	transition: .4s;
+}
+
+.nav-link:hover {
+	background: rgba(255,255,255,0.25);
+}
+
+footer {
+	background: rgb(216, 56, 56);
+	color: #FAFAFA;
+	text-align: center;
+}
+
+
+.contactButton {
+	display: inline-block;
+	background: rgb(186, 186, 186);
+	padding: 0px 14px;
+	border-radius: 4px;
+	margin: 15px;
+	margin-top: 0px;
+	text-decoration: none;
+	color: rgb(90, 90, 90);
+}
+
+.contactButton:hover {
+	box-shadow: rgb(139, 139, 139) 0px 0px 55px inset;
+}
+/*
+.artGallery {
+	width: 100%;
+	max-width: 1050px;
+	height: auto;
+	margin: 15px auto;
+	background: lightgray;
+	overflow: hidden;
+	transition: .4s;
+	box-shadow: 0 0 3px rgb(144, 144, 144);
+	border-radius: 5px;
+}
+
+.artProject {
+	display: block;
+	width: 200px;
+	height: 175px;
+	background: gray;
+	float: left;
+	margin: 5px;
+	position: relative;
+	transition: .4s;
+	box-shadow: 0 0 3px rgb(144, 144, 144);
+}
+
+.artProject:hover {
+	box-shadow: 0 0 6px rgb(0, 0, 0);
+	cursor: pointer;
+}
+
+.artProjectThumb {
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+}
+
+h2.artProjectTitle {
+	position: absolute;
+	bottom: 0;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	left: 75px;
+	display:none;
+}
+#art1{
+	background: url("/Art-Thumbs/A Glance Through the Flames.jpg") center /cover;
+}
+#art2{
+	background: url("/Art-Thumbs/Alone.jpg") center /cover;
+}
+#art3{
+	background: url("/Art-Thumbs/Another Rainy Day.jpg") center /cover;
+}
+#art4{
+	background: url("/Art-Thumbs/Cant think of a clever title.jpg") center /cover;
+}
+#art5{
+	background: url("/Art-Thumbs/Dive.jpg") center /cover;
+}
+#art6{
+	background: url("/Art-Thumbs/Drawn To Life.jpg") center /cover;
+}
+#art7{
+	background: url("/Art-Thumbs/Eye of the Storm.jpg") center /cover;
+}
+#art8{
+	background: url("/Art-Thumbs/Fly.jpg") center /cover;
+}
+#art9{
+	background: url("/Art-Thumbs/I See Fire.jpg") center /cover;
+}
+#art10{
+	background: url("/Art-Thumbs/Ice & Fire.jpg") center /cover;
+}
+#art11{
+	background: url("/Art-Thumbs/Kate.jpg") center /cover;
+}
+#art12{
+	background: url("/Art-Thumbs/Leaking.jpg") center /cover;
+}
+#art13{
+	background: url("/Art-Thumbs/Let it Go.jpg") center /cover;
+}
+#art14{
+	background: url("/Art-Thumbs/Lone Wolf.jpg") center /cover;
+}
+#art15{
+	background: url("/Art-Thumbs/Long Way From Home.jpg") center /cover;
+}
+#art16{
+	background: url("/Art-Thumbs/Look to the Stars.jpg") center /cover;
+}
+#art17{
+	background: url("/Art-Thumbs/Magic Touch.jpg") center /cover;
+}
+#art18{
+	background: url("/Art-Thumbs/Make A Wish.jpg") center /cover;
+}
+#art19{
+	background: url("/Art-Thumbs/Mist.jpg") center /cover;
+}
+#art20{
+	background: url("/Art-Thumbs/Mistakes.jpg") center /cover;
+}
+#art21{
+	background: url("/Art-Thumbs/Ours to Explore.jpg") center /cover;
+}
+#art22{
+	background: url("/Art-Thumbs/Power.jpg") center /cover;
+}
+#art23{
+	background: url("/Art-Thumbs/PTSD.jpg") center /cover;
+}
+#art24{
+	background: url("/Art-Thumbs/Run.jpg") center /cover;
+}
+#art25{
+	background: url("/Art-Thumbs/Say My Name.jpg") center /cover;
+}
+#art26{
+	background: url("/Art-Thumbs/Shark Week.jpg") center /cover;
+}
+#art27{
+	background: url("/Art-Thumbs/Space.jpg") center /cover;
+}
+#art28{
+	background: url("/Art-Thumbs/Spirit Animal.jpg") center /cover;
+}
+#art29{
+	background: url("/Art-Thumbs/stolt norsk.jpg") center /cover;
+}
+#art30{
+	background: url("/Art-Thumbs/Stormy Seas.jpg") center /cover;
+}
+#art31{
+	background: url("/Art-Thumbs/Survive.jpg") center /cover;
+}
+#art32{
+	background: url("/Art-Thumbs/Taking Over.jpg") center /cover;
+}
+#art33{
+	background: url("/Art-Thumbs/The Fields of Time.jpg") center /cover;
+}
+#art34{
+	background: url("/Art-Thumbs/The Journey.jpg") center /cover;
+}
+#art35{
+	background: url("/Art-Thumbs/The Siren and the Sea.jpg") center /cover;
+}
+#art36{
+	background: url("/Art-Thumbs/The Stark Knight.jpg") center /cover;
+}
+#art37{
+	background: url("/Art-Thumbs/The Storm.jpg") center /cover;
+}
+#art38{
+	background: url("/Art-Thumbs/Through the Fields.jpg") center /cover;
+}
+#art39{
+	background: url("/Art-Thumbs/Together We Go.jpg") center /cover;
+}
+#art40{
+	background: url("/Art-Thumbs/Wanderer.jpg") center /cover;
+}
+#art41{
+	background: url("/Art-Thumbs/Watching.jpg") center /cover;
+}
+
+.fadeBack {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: rgba(47, 47, 47, 0.9);
+	position: fixed;
+	z-index: 10000;
+	display: none;
+}
+
+.FullView{
+	position: fixed;
+	z-index: 10000;
+	top: 5%;
+	left: 2.5%;
+	max-width: 95%;
+	height: 90%;
+	background-repeat: no-repeat  !important;
+	background-size: contain !important;
+	background-position: center !important;
+}
+
+.fullImage{
+	display: none;
+	position: fixed;
+	z-index: 10002;
+	top: 5%;
+	left: 2.5%;
+	width: 100%;
+	max-width: 95%;
+	height: 90%;
+	background-repeat: no-repeat  !important;
+	background-size: contain !important;
+	background-position: center !important;
+}
+
+.hideBack{
+	background:none;
+}
+*/
+@media(max-width: 1120px){
+	.artGallery{
+		max-width:840px;
+	}
+}
+@media(max-width: 907px){
+	.artGallery{
+		max-width:630px;
+	}
+}
+@media(max-width: 697px){
+	.artGallery{
+		max-width:420px;
+	}
+}
+@media(max-width:487px){
+	.artGallery{
+		max-width:316px;
+	}
+	.artProject{
+		width:148px;
+		height:135px;
+	}
+	.artProjectTitle{
+		left: 52.5px !important;
+	}
+	.main-content .container {
+		padding: 0px 12px;
+	}
+}
+@media(max-width: 500px){
+	.menuButton{
+		display:block;
+	}
+	.menuButton:hover{
+		cursor:pointer;
+	}
+	.navbar{
+		box-shadow: none;
+		margin-top: 0;
+		display:none;
+		border-radius: 0;
+	}
+	.header-nav li{
+		display:block;
+		width:100%;
+		border-bottom: 1px solid rgb(187, 187, 187);
+		margin: 0;
+	}
+}
+@media(max-width: 500px){
+	.navbar{
+		display:block;
+	}
+}
