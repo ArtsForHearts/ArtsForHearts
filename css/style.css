@@ -13,6 +13,7 @@ body {
 
 .container {
 	/*max-width: 1000px;*/
+	max-width: 760px;
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -23,25 +24,22 @@ h1 {
 }
 
 p{
-	max-width: 750px;
-	margin: 15px auto;
-	font-family: georgia;
+    margin: 15px auto;
+    font-family: georgia;
+    padding: 0 10px;
 }
 
 .main-content .container {
 	margin: 0 auto;
 	padding: 0 25px;
+	max-width: 760px;
 }
 
 .banner {
-	/*height: 240px;*/
-    max-width: 760px;
-    height:auto;
+	max-width: 100%;
+    height: auto;
     margin: 25px auto;
-    /*background: url("http://rramsland.github.io/ArtsForHearts/images/Banner.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
+    display: block;
 }
 
 .site-title {
