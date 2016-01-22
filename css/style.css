@@ -35,9 +35,9 @@ p{
 	max-width: 760px;
 }
 
-.homeTime{
-	text-align:center;
+.homeDate{
 	font-family:Georgia;
+	margin: 5px;
 }
 
 .banner {
