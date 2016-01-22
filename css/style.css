@@ -35,6 +35,11 @@ p{
 	max-width: 760px;
 }
 
+.homeTime{
+	text-align:center;
+	font-family:Georgia;
+}
+
 .banner {
 	max-width: 100%;
     height: auto;
