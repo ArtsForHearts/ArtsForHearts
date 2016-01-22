@@ -1,0 +1,9 @@
+# Site Settings
+title: Arts For Hearts
+description: 
+url: http://rramsland.github.io/ArtsForHearts
+pathname: ArtsForHearts
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
