@@ -122,6 +122,37 @@ footer {
 .contactButton:hover {
 	box-shadow: rgb(139, 139, 139) 0px 0px 55px inset;
 }
+
+.fbEvent {
+    display: block;
+    background: #3b579d;
+    width: 150px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.fbEventText {
+    margin: 0;
+    color: white;
+    float: left;
+    font-family: "Open Sans";
+    font-size: 17px;
+    padding: 7px;
+    margin-left: 22px;
+}
+
+.fbEventLogo {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    float: right;
+}
+
+.fbEvent:hover {
+    background: #4E71C7;
+}
+
 /*
 .artGallery {
 	width: 100%;
