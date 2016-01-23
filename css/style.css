@@ -153,6 +153,18 @@ footer {
     background: #4E71C7;
 }
 
+.comingSoon:hover {
+    background: gray;
+}
+
+.comingSoon:hover:before {
+    content: "Coming Soon";
+}
+
+.comingSoon:hover span {
+    display:none;
+}
+
 /*
 .artGallery {
 	width: 100%;
