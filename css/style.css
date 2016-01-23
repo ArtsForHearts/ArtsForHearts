@@ -124,13 +124,22 @@ footer {
 	box-shadow: rgb(139, 139, 139) 0px 0px 55px inset;
 }
 
+.socialMediaContainer{
+    height: Auto;
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 330px;
+}
+
 .fbEvent {
-    display: block;
+    display: inline-block;
     background: #3b579d;
     width: 150px;
     height: 40px;
-    margin: 0 auto;
     border-radius: 5px;
+    float: left;
+    overflow: hidden;
+    margin: 0 7.5px;
 }
 
 .fbEventText {
@@ -140,7 +149,7 @@ footer {
     font-family: "Open Sans";
     font-size: 17px;
     padding: 7px;
-    margin-left: 22px;
+    margin-left: 34px;
 }
 
 .fbEventLogo {
@@ -152,6 +161,38 @@ footer {
 
 .fbEvent:hover {
     background: #4E71C7;
+}
+
+.twitterEvent {
+    display: inline-block;
+    float: left;
+    background: #5ea9dd;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0px 7.5px;
+}
+
+.twitterEventText {
+    margin: 0;
+    color: white;
+    float: left;
+    font-family: "Open Sans";
+    font-size: 17px;
+    padding: 7px;
+    margin-left: 14px;
+}
+
+.twitterEventLogo {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    float: right;
+}
+
+.twitterEvent:hover {
+    background: #70C4FF;
 }
 
 .comingSoon:hover {
