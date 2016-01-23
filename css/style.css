@@ -108,15 +108,15 @@ footer {
 }
 
 
-.contactButton {
+.donateButton {
 	display: inline-block;
-	background: rgb(186, 186, 186);
+	background: white;
 	padding: 0px 14px;
 	border-radius: 4px;
 	margin: 15px;
 	margin-top: 0px;
 	text-decoration: none;
-	color: rgb(90, 90, 90);
+	color: rgb(216, 56, 56);
 }
 
 .contactButton:hover {
