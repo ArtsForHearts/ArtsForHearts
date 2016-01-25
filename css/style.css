@@ -5,6 +5,8 @@ body {
 	line-height: 1.45;
 	color: #333;
 	margin:0;
+	background: url("https://i.ytimg.com/vi/50AF-uFpRtc/maxresdefault.jpg");
+	background-attachment: fixed;
 }
 
 html,body{
@@ -20,6 +22,12 @@ html,body{
 	max-width: 760px;
 	margin: 0 auto;
 	overflow: hidden;
+}
+
+.contentBack {
+    max-width: 1250px;
+    margin: 0 auto;
+    background: white;
 }
 
 h1 {
@@ -106,9 +114,12 @@ p{
 .nav-link:hover {
 	background: rgba(255,255,255,0.25);
 }
-
+header{
+	background: rgb(193, 28, 28);
+}
 footer {
 	background: rgb(216, 56, 56);
+	background: rgb(193, 28, 28);
 	color: #FAFAFA;
 	text-align: center;
 }
