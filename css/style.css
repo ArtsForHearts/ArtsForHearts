@@ -7,6 +7,10 @@ body {
 	margin:0;
 }
 
+html,body{
+	height:100%;
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -109,6 +113,7 @@ footer {
 	text-align: center;
 }
 
+/*Social Media Buttons*/
 
 .donateButton {
 	display: inline-block;
@@ -222,10 +227,21 @@ footer {
     display: block;
 }
 
+/*Footer Positioning*/
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -91px;
+}
 
+.push {
+    height: 91px;
+}
 
-
-
+footer, .push{
+	height: 91px;
+}
 
 
 
