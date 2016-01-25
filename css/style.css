@@ -5,6 +5,12 @@ body {
 	line-height: 1.45;
 	color: #333;
 	margin:0;
+	background: url("http://rramsland.github.io/ArtsForHearts/images/curtains.jpg");
+	background-attachment: fixed;
+}
+
+html,body{
+	height:100%;
 }
 
 * {
@@ -13,34 +19,46 @@ body {
 
 .container {
 	/*max-width: 1000px;*/
+	max-width: 760px;
 	margin: 0 auto;
 	overflow: hidden;
+}
+
+.contentBack {
+    max-width: 1250px;
+    margin: 0 auto;
+    background: white;
 }
 
 h1 {
 	text-align: center;
 	font-weight: 500;
+	font-family: "Georgia";
 }
 
 p{
-	max-width: 750px;
-	margin: 15px auto;
-	font-family: georgia;
+    margin: 15px auto;
+    font-family: georgia;
+    padding: 0 10px;
 }
 
 .main-content .container {
 	margin: 0 auto;
 	padding: 0 25px;
+	max-width: 760px;
+}
+
+.homeDate{
+	font-family:Georgia;
+	margin: 2.5px;
+	font-size: 1.75em;
 }
 
 .banner {
-	height: 240px;
-    max-width: 760px;
+	max-width: 100%;
+    height: auto;
     margin: 25px auto;
-    background: url("images/Banner.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    display: block;
 }
 
 .site-title {
@@ -50,6 +68,7 @@ p{
 	display: block;
 	font-family: 'Cinzel Decorative', cursive;
 	color:black;
+	color:white;
 }
 
 .menuButton {
@@ -96,264 +115,202 @@ p{
 .nav-link:hover {
 	background: rgba(255,255,255,0.25);
 }
-
+header{
+	background: rgb(193, 28, 28);
+}
 footer {
 	background: rgb(216, 56, 56);
+	background: rgb(193, 28, 28);
 	color: #FAFAFA;
 	text-align: center;
 }
 
+/*Social Media Buttons*/
 
-.contactButton {
+.donateButton {
 	display: inline-block;
-	background: rgb(186, 186, 186);
+	background: white;
 	padding: 0px 14px;
 	border-radius: 4px;
 	margin: 15px;
 	margin-top: 0px;
 	text-decoration: none;
-	color: rgb(90, 90, 90);
+	color: rgb(216, 56, 56);
+	visibility: hidden;
 }
 
 .contactButton:hover {
 	box-shadow: rgb(139, 139, 139) 0px 0px 55px inset;
 }
-/*
-.artGallery {
-	width: 100%;
-	max-width: 1050px;
-	height: auto;
-	margin: 15px auto;
-	background: lightgray;
-	overflow: hidden;
-	transition: .4s;
-	box-shadow: 0 0 3px rgb(144, 144, 144);
-	border-radius: 5px;
+
+.socialMediaContainer{
+    height: Auto;
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 330px;
 }
 
-.artProject {
-	display: block;
-	width: 200px;
-	height: 175px;
-	background: gray;
-	float: left;
-	margin: 5px;
-	position: relative;
-	transition: .4s;
-	box-shadow: 0 0 3px rgb(144, 144, 144);
+.fbEvent {
+    display: inline-block;
+    background: #3b579d;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    float: left;
+    overflow: hidden;
+    margin: 0 7.5px;
 }
 
-.artProject:hover {
-	box-shadow: 0 0 6px rgb(0, 0, 0);
-	cursor: pointer;
+.fbEventText {
+    margin: 0;
+    color: white;
+    float: left;
+    font-family: "Open Sans";
+    font-size: 17px;
+    padding: 7px;
+    margin-left: 34px;
 }
 
-.artProjectThumb {
-	width: 100%;
-	height: 100%;
-	background-position: center;
-	background-size: cover;
+.fbEventLogo {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    float: right;
 }
 
-h2.artProjectTitle {
-	position: absolute;
-	bottom: 0;
-	padding: 0;
-	margin: 0;
-	text-align: center;
-	left: 75px;
-	display:none;
-}
-#art1{
-	background: url("/Art-Thumbs/A Glance Through the Flames.jpg") center /cover;
-}
-#art2{
-	background: url("/Art-Thumbs/Alone.jpg") center /cover;
-}
-#art3{
-	background: url("/Art-Thumbs/Another Rainy Day.jpg") center /cover;
-}
-#art4{
-	background: url("/Art-Thumbs/Cant think of a clever title.jpg") center /cover;
-}
-#art5{
-	background: url("/Art-Thumbs/Dive.jpg") center /cover;
-}
-#art6{
-	background: url("/Art-Thumbs/Drawn To Life.jpg") center /cover;
-}
-#art7{
-	background: url("/Art-Thumbs/Eye of the Storm.jpg") center /cover;
-}
-#art8{
-	background: url("/Art-Thumbs/Fly.jpg") center /cover;
-}
-#art9{
-	background: url("/Art-Thumbs/I See Fire.jpg") center /cover;
-}
-#art10{
-	background: url("/Art-Thumbs/Ice & Fire.jpg") center /cover;
-}
-#art11{
-	background: url("/Art-Thumbs/Kate.jpg") center /cover;
-}
-#art12{
-	background: url("/Art-Thumbs/Leaking.jpg") center /cover;
-}
-#art13{
-	background: url("/Art-Thumbs/Let it Go.jpg") center /cover;
-}
-#art14{
-	background: url("/Art-Thumbs/Lone Wolf.jpg") center /cover;
-}
-#art15{
-	background: url("/Art-Thumbs/Long Way From Home.jpg") center /cover;
-}
-#art16{
-	background: url("/Art-Thumbs/Look to the Stars.jpg") center /cover;
-}
-#art17{
-	background: url("/Art-Thumbs/Magic Touch.jpg") center /cover;
-}
-#art18{
-	background: url("/Art-Thumbs/Make A Wish.jpg") center /cover;
-}
-#art19{
-	background: url("/Art-Thumbs/Mist.jpg") center /cover;
-}
-#art20{
-	background: url("/Art-Thumbs/Mistakes.jpg") center /cover;
-}
-#art21{
-	background: url("/Art-Thumbs/Ours to Explore.jpg") center /cover;
-}
-#art22{
-	background: url("/Art-Thumbs/Power.jpg") center /cover;
-}
-#art23{
-	background: url("/Art-Thumbs/PTSD.jpg") center /cover;
-}
-#art24{
-	background: url("/Art-Thumbs/Run.jpg") center /cover;
-}
-#art25{
-	background: url("/Art-Thumbs/Say My Name.jpg") center /cover;
-}
-#art26{
-	background: url("/Art-Thumbs/Shark Week.jpg") center /cover;
-}
-#art27{
-	background: url("/Art-Thumbs/Space.jpg") center /cover;
-}
-#art28{
-	background: url("/Art-Thumbs/Spirit Animal.jpg") center /cover;
-}
-#art29{
-	background: url("/Art-Thumbs/stolt norsk.jpg") center /cover;
-}
-#art30{
-	background: url("/Art-Thumbs/Stormy Seas.jpg") center /cover;
-}
-#art31{
-	background: url("/Art-Thumbs/Survive.jpg") center /cover;
-}
-#art32{
-	background: url("/Art-Thumbs/Taking Over.jpg") center /cover;
-}
-#art33{
-	background: url("/Art-Thumbs/The Fields of Time.jpg") center /cover;
-}
-#art34{
-	background: url("/Art-Thumbs/The Journey.jpg") center /cover;
-}
-#art35{
-	background: url("/Art-Thumbs/The Siren and the Sea.jpg") center /cover;
-}
-#art36{
-	background: url("/Art-Thumbs/The Stark Knight.jpg") center /cover;
-}
-#art37{
-	background: url("/Art-Thumbs/The Storm.jpg") center /cover;
-}
-#art38{
-	background: url("/Art-Thumbs/Through the Fields.jpg") center /cover;
-}
-#art39{
-	background: url("/Art-Thumbs/Together We Go.jpg") center /cover;
-}
-#art40{
-	background: url("/Art-Thumbs/Wanderer.jpg") center /cover;
-}
-#art41{
-	background: url("/Art-Thumbs/Watching.jpg") center /cover;
+.fbEvent:hover {
+    background: #4E71C7;
 }
 
-.fadeBack {
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-	background: rgba(47, 47, 47, 0.9);
-	position: fixed;
-	z-index: 10000;
-	display: none;
+.twitterEvent {
+    display: inline-block;
+    float: left;
+    background: #5ea9dd;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0px 7.5px;
 }
 
-.FullView{
-	position: fixed;
-	z-index: 10000;
-	top: 5%;
-	left: 2.5%;
-	max-width: 95%;
-	height: 90%;
-	background-repeat: no-repeat  !important;
-	background-size: contain !important;
-	background-position: center !important;
+.twitterEventText {
+    margin: 0;
+    color: white;
+    float: left;
+    font-family: "Open Sans";
+    font-size: 17px;
+    padding: 7px;
+    margin-left: 14px;
 }
 
-.fullImage{
-	display: none;
-	position: fixed;
-	z-index: 10002;
-	top: 5%;
-	left: 2.5%;
-	width: 100%;
-	max-width: 95%;
-	height: 90%;
-	background-repeat: no-repeat  !important;
-	background-size: contain !important;
-	background-position: center !important;
+.twitterEventLogo {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    float: right;
 }
 
-.hideBack{
-	background:none;
+.twitterEvent:hover {
+    background: #70C4FF;
 }
-*/
-@media(max-width: 1120px){
-	.artGallery{
-		max-width:840px;
-	}
+
+.comingSoon:hover {
+    background: gray;
 }
-@media(max-width: 907px){
-	.artGallery{
-		max-width:630px;
-	}
+
+.comingSoon:hover:before {
+    content: "Coming Soon";
 }
-@media(max-width: 697px){
-	.artGallery{
-		max-width:420px;
-	}
+
+.comingSoon:hover span {
+    display:none;
 }
+
+/*Event Page*/
+
+.campusMap {
+    max-width: 100%;
+}
+
+.googleMap{
+	margin: 0 auto;
+    border: 0;
+    display: block;
+    max-width: 100%;
+}
+
+/*Contact Page*/
+label{
+	display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+    font-family: georgia;
+}
+
+form{
+	max-width:100%;
+	margin:0 auto;
+	width:450px;
+}
+
+input, textarea {
+	max-width:100%;
+	width:100%;
+	height:32px;
+	background: #F7F7F7;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+	border-radius:5px;
+}
+
+textarea{
+	height:220px;
+}
+
+#submit{
+	width:127px;
+    height:38px;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+
+/*About*/
+
+.AHAHeart {
+    max-width: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+.tiffHeadshot {
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+/*Footer Positioning*/
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -91px;
+}
+
+.push {
+    height: 91px;
+}
+
+footer, .push{
+	height: 91px;
+}
+
+/*Media Queries*/
+
 @media(max-width:487px){
-	.artGallery{
-		max-width:316px;
-	}
-	.artProject{
-		width:148px;
-		height:135px;
-	}
-	.artProjectTitle{
-		left: 52.5px !important;
-	}
 	.main-content .container {
 		padding: 0px 12px;
 	}
@@ -377,9 +334,17 @@ h2.artProjectTitle {
 		border-bottom: 1px solid rgb(187, 187, 187);
 		margin: 0;
 	}
+	body{
+		background:white;
+	}
 }
-@media(max-width: 500px){
+/*@media(max-width: 500px){
 	.navbar{
 		display:block;
+	}
+}*/
+@media(min-width:500px){
+	.site-title{
+		font-size: 2.5em;
 	}
 }
