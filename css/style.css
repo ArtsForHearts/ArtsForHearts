@@ -5,7 +5,7 @@ body {
 	line-height: 1.45;
 	color: #333;
 	margin:0;
-	background: url("http://rramsland.github.io/ArtsForHearts/images/curtains.jpg");
+	background: url("{{ site.url }}/images/curtains.jpg");
 	background-attachment: fixed;
 }
 
