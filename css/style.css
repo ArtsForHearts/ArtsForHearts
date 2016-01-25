@@ -124,6 +124,7 @@ footer {
 	margin-top: 0px;
 	text-decoration: none;
 	color: rgb(216, 56, 56);
+	visibility: hidden;
 }
 
 .contactButton:hover {
