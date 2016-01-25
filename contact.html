@@ -5,7 +5,7 @@ layout: default
 	
 		<h1>Contact</h1>
 
-		<form method="post" action="/">
+		<form method="post" action="http://rramsland.github.io/ArtsForHearts/contact.php">
     		<label>Name</label>
     		<input name="name" placeholder="Name" required="required">
             
@@ -17,42 +17,3 @@ layout: default
             
     		<input id="submit" name="submit" type="submit" value="Submit">
 		</form>
-
-		<script>
-		(function() {
-		 
-		    // Create input element for testing
-		    var input = document.createElement('input');
-		     
-		    // Create the supports object
-		    var supports = {};
-		     
-		    supports.autofocus   = 'autofocus' in input;
-		    supports.required    = 'required' in input;
-		    supports.placeholder = 'placeholder' in input;
-		 
-		    // Fallback for autofocus attribute
-		    if(!supports.autofocus) {
-		         
-		    }
-		     
-		    // Fallback for required attribute
-		    if(!supports.required) {
-		         
-		    }
-		 
-		    // Fallback for placeholder attribute
-		    if(!supports.placeholder) {
-		         
-		    }
-		     
-		    // Change text inside send button on submit
-		    var send = document.getElementById('submit');
-		    if(send) {
-		        send.onclick = function () {
-		            this.innerHTML = '...Sending';
-		        }
-		    }
-		 
-		})();
-		</script>
