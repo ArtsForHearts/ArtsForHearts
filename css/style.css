@@ -21,6 +21,7 @@ body {
 h1 {
 	text-align: center;
 	font-weight: 500;
+	font-family: "Georgia";
 }
 
 p{
@@ -206,6 +207,27 @@ footer {
 .comingSoon:hover span {
     display:none;
 }
+
+/*About*/
+
+.AHAHeart {
+    max-width: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+.tiffHeadshot {
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+
+
+
+
 
 /*
 .artGallery {
