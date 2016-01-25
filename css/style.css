@@ -213,6 +213,19 @@ footer {
     display:none;
 }
 
+/*Event Page*/
+
+.campusMap {
+    max-width: 100%;
+}
+
+.googleMap{
+	margin: 0 auto;
+    border: 0;
+    display: block;
+    max-width: 100%;
+}
+
 /*About*/
 
 .AHAHeart {
