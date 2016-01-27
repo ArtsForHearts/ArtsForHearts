@@ -354,7 +354,7 @@ footer, .push{
 		font-size: 2.5em;
 	}
 }
-@media(max-width:360px){
+@media(max-width:356px){
 	.fbEvent, .twitterEvent{
 		margin: 5px auto;
     	display: block;
