@@ -72,7 +72,8 @@ p{
 }
 
 .menuButton {
-	height: 26px;
+	height: 30px;
+	line-height:30px;
 	background: lightgray;
 	text-align: center;
 	display:none;
