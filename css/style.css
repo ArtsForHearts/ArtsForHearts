@@ -230,14 +230,16 @@ footer {
 /*Event Page*/
 
 .campusMap {
-    max-width: 100%;
+    max-width: 95%;
+    display: block;
+    margin: 10px auto;
 }
 
 .googleMap{
-	margin: 0 auto;
     border: 0;
     display: block;
-    max-width: 100%;
+    max-width: 95%;
+    margin: 15px auto;
 }
 
 /*Event Alt Page*/
@@ -258,7 +260,7 @@ footer {
 
 .eventBanner {
     display: block;
-    max-width: 100%;
+    max-width: 95%;
     /* max-height: 250px; */
     margin: 15px auto;
 }
@@ -269,6 +271,18 @@ footer {
     height: 3px;
     border-radius: 5px;
     margin: 5px auto;
+}
+
+.nursingBanner{
+	max-width: 75%;
+}
+
+.alumniBanner{
+	max-width: 75%;
+}
+
+.govBanner{
+	max-width: 60%;
 }
 
 /*Contact Page*/
