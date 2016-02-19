@@ -163,7 +163,7 @@ footer {
     height: 40px;
     border-radius: 5px;
     overflow: hidden;
-    margin: 0 7.5px;
+    margin: 4px 7.5px;
 }
 
 .fbEventText {
@@ -194,7 +194,7 @@ footer {
     height: 40px;
     border-radius: 5px;
     overflow: hidden;
-    margin: 0px 7.5px;
+    margin: 4px 7.5px;
 }
 
 .twitterEventText {
@@ -226,7 +226,7 @@ footer {
     height: 40px;
     border-radius: 5px;
     overflow: hidden;
-    margin: 0px 7.5px;
+    margin: 4px 7.5px;
 }
 
 .eventFlierText {
