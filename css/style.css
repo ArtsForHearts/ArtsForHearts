@@ -404,6 +404,19 @@ footer, .push{
 	height: 91px;
 }
 
+
+/*Audition PAge*/
+.radio {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: Auto;
+}
+
+
+
+
+
 /*Media Queries*/
 
 @media(max-width:487px){
