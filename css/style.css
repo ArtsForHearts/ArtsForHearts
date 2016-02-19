@@ -152,7 +152,8 @@ footer {
     height: Auto;
     overflow: hidden;
     margin: 0 auto;
-    max-width: 330px;
+    max-width:100%;
+    text-align:center;
 }
 
 .fbEvent {
@@ -161,7 +162,6 @@ footer {
     width: 150px;
     height: 40px;
     border-radius: 5px;
-    float: left;
     overflow: hidden;
     margin: 0 7.5px;
 }
@@ -189,7 +189,6 @@ footer {
 
 .twitterEvent {
     display: inline-block;
-    float: left;
     background: #5ea9dd;
     width: 150px;
     height: 40px;
@@ -218,6 +217,40 @@ footer {
 .twitterEvent:hover {
     background: #70C4FF;
 }
+
+
+.eventFlier {
+    display: inline-block;
+    background: red;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0px 7.5px;
+}
+
+.eventFlierText {
+    margin: 0;
+    color: white;
+    float: left;
+    font-family: "Open Sans";
+    font-size: 17px;
+    padding: 7px;
+    margin-left: 12px;
+}
+
+.eventFlierLogo {
+    width: 28px;
+    height: 30px;
+    margin: 5px;
+    margin-right:6px;
+    float: right;
+}
+
+.eventFlier:hover {
+    background: #F75555;
+}
+
 
 .comingSoon:hover {
     background: gray;
@@ -415,10 +448,10 @@ footer, .push{
 		font-size: 2.5em;
 	}
 }
-@media(max-width:356px){
+/*@media(max-width:356px){
 	.fbEvent, .twitterEvent{
 		margin: 5px auto;
     	display: block;
     	float:none;
 	}
-}
+}*/
