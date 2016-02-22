@@ -4,8 +4,11 @@ layout: default
 ---
 	
 		<h1>Contact</h1>
+<iframe name="hidden_iframe" id="hidden_iframe"
+style="display:none;" onload="if(submitted)
+{}"></iframe>
 
-<form action="https://docs.google.com/forms/d/1XxdZNhCvbCZotrn7HZkByEp58m93yKzVAF3uv_mktBw/formResponse" method="POST" id="ss-form" target="_new" onsubmit="">
+<form id="formContact" action="https://docs.google.com/forms/d/1XxdZNhCvbCZotrn7HZkByEp58m93yKzVAF3uv_mktBw/formResponse" method="POST" id="ss-form" target="hidden_iframe" onsubmit="submitted=true;">
     <ol role="list" class="ss-question-list" style="padding-left: 0">
         <div class="ss-form-question errorbox-good" role="listitem">
             <div dir="auto" class="ss-item ss-item-required ss-text">
@@ -65,3 +68,4 @@ layout: default
         </div>
     </ol>
 </form>
+<div class="formSuccess"><p class="formSuccessText">Response Submitted!</p></div>

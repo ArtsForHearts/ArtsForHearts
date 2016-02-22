@@ -7,7 +7,12 @@ $(document).ready(function(){
 	var submitForm = function(){
 		$('form').slideUp();
 	}
-	$('#formAuditions').submit(function(e) {
+	$('#formContact').submit(function(e) {
+        $('form').slideUp();
+        $('.formSuccess').show();
+    });
+
+    $('#formAuditions').submit(function(e) {
         $('form').slideUp();
         $('.formSuccess').show();
     });
