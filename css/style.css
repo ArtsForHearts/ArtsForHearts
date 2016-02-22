@@ -19,7 +19,7 @@ html,body{
 
 .container {
 	/*max-width: 1000px;*/
-	max-width: 760px;
+	max-width: 860px;
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -96,7 +96,7 @@ p{
 
 .header-nav li {
 	display: inline-block;
-	width: 19%;
+	width: 15.6666%;
 	text-align: center;
 	margin: .5%;
 	background: rgb(216, 56, 56);
