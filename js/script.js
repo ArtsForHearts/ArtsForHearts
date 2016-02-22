@@ -4,7 +4,7 @@ $(document).ready(function(){
 		$(".navbar").slideToggle();
 	});
 
-	function submitForm(){
+	var submitForm = function(){
 		$('form').slideUp();
 	}
 	
