@@ -435,7 +435,7 @@ footer, .push{
 		padding: 0px 12px;
 	}
 }
-@media(max-width: 500px){
+@media(max-width: 685px){
 	.menuButton{
 		display:block;
 	}
@@ -462,12 +462,12 @@ footer, .push{
 		transition: none;
 	}
 }
-@media(min-width: 500px){
+@media(min-width: 685px){
 	.navbar{
 		display:block;
 	}
 }
-@media(min-width:500px){
+@media(min-width:685px){
 	.site-title{
 		font-size: 2.5em;
 	}
