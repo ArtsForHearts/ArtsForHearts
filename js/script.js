@@ -9,7 +9,7 @@ $(document).ready(function(){
 	}
 	$('#formAuditions').submit(function(e) {
         $('form').slideUp();
-        $('formSuccess').show();
+        $('.formSuccess').show();
     });
 	
 });
