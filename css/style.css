@@ -418,6 +418,7 @@ footer, .push{
     height: 60px;
     background: #E8E8E8;
     border-radius: 5px;
+    display:none;
 }
 
 .formSuccessText{
