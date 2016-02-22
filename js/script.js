@@ -5,7 +5,7 @@ $(document).ready(function(){
 	});
 
 	function submitForm(){
-		$('form').hide();
-	};
+		$('form').slideUp();
+	}
 	
 });
