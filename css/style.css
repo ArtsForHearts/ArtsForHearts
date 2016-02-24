@@ -143,6 +143,10 @@ footer {
     color: rgb(216, 56, 56);
 }
 
+.donateButton:hover span {
+    display:none;
+}
+
 .donateButton:hover:before {
     content: "❤";
     font-size: 20px;
