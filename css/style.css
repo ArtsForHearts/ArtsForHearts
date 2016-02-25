@@ -167,7 +167,8 @@ footer {
     border-radius: 5px;
     color: white;
     text-align: center;
-    transition: .3s;
+    transition: .2s;
+    font-weight: 600;
 }
 
 .homeDonate:hover span {
