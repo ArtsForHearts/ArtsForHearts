@@ -141,7 +141,7 @@ footer {
     line-height: 25px;
     text-decoration: none;
     color: rgb(216, 56, 56);
-    visibility: none;
+    visibility: hidden;
 }
 
 .donateButton:hover span {
