@@ -35,6 +35,9 @@ h1 {
 	font-weight: 500;
 	font-family: "Georgia";
 }
+h2{
+    text-align:center;
+}
 
 p{
     margin: 15px auto;
