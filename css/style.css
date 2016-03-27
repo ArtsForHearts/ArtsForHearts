@@ -472,6 +472,9 @@ footer, .push{
     text-align: center;
     line-height: 60px;
 }
+.centered{
+    text-align:center;
+}
 
 
 /*Media Queries*/
