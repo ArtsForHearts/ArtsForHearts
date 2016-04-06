@@ -1,0 +1,13 @@
+---
+title: test
+layout: default
+---
+
+<h1>Jekyll image loop test</h1>
+<ul>
+  {% for image in site.images %}
+    <li>
+      <a href="{{ image.url }}">{{ image }}</a>
+    </li>
+  {% endfor %}
+</ul>

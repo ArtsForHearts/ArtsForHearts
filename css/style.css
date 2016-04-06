@@ -477,6 +477,36 @@ footer, .push{
 }
 
 
+/*GALLERY TEST*/
+.galleryTestCont{
+    max-width:1000px !important;
+}
+.galleryContainer {
+    background: #F1EDED;
+    width: 1000px;
+    max-width: 98%;
+    height: auto;
+    padding: 2px;
+    margin: 0 auto;
+    font-size: 0;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.contentThumbContainer {
+    background: #0089FF;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    margin: 1px;
+    border-radius: 4px;
+    background: url(../images/TiffanyHeadshot.jpg), white;
+    background-size: cover;
+}
+
+
+
+
 /*Media Queries*/
 
 @media(max-width:487px){
