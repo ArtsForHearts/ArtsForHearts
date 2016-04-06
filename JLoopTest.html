@@ -1,13 +1,14 @@
 ---
 title: test
 layout: default
+image:
+  - /images/TiffanyHeadshot.jpg
+  - images/NancyHeadshot.jpg
+  - /images/JessicaSHeadshot.jpg
+  - images/BrianaCHeadshot.jpg
 ---
 
 <h1>Jekyll image loop test</h1>
-<ul>
-  {% for image in site.images %}
-    <li>
-      <a href="{{ image.url }}">{{ image }}</a>
-    </li>
-  {% endfor %}
-</ul>
+{% for image in page.image %}
+	<img src="{{ page.image[forloop.index0] }}"> 
+{% endfor %}
