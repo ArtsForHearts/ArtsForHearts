@@ -131,6 +131,7 @@ footer {
 .rainDate{
 	font-size:12px;
 	text-align: center;
+    visibility: hidden;
 }
 
 /*Social Media Buttons*/
