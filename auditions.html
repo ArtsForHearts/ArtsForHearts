@@ -12,7 +12,27 @@ layout: default
 
 <p>If interested in auditioning, please fill out the form below:</p>
 
+<form action="https://formspree.io/rramsland@gmail.com" method="POST">
+    <label>Name</label>
+    <input type="text" name="name">
 
+    <label>Email Address</label>
+    <input type="email" name="_replyto">
+
+    <label>Phone Number</label>
+    <input type="tel" name="phone">
+
+    <label>Performance Category</label>
+    <input type="radio" name="category" value="Musical">
+  	<input type="radio" name="category" value="Dance">
+
+    <label>Message</label>
+    <textarea name="message" rows="6" cols="25"></textarea>
+
+	<input type="text" name="_gotcha" style="display:none">
+    <input type="submit" value="Send" class="submitContact">
+    <input type="hidden" name="_next" value="/auditions">
+</form>
 
 
 
