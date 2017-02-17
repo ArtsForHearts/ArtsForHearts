@@ -480,6 +480,23 @@ footer, .push{
     text-align:center;
 }
 
+.radioContainer {
+    height: 32px;
+    margin: 5px;
+}
+
+.radioB {
+    width: initial;
+    float: left;
+    margin: 0px 5px;
+}
+
+.radioLabel {
+    display: inline-block;
+    margin-top: 0;
+    line-height: 32px;
+    float: left;
+}
 
 /*GALLERY TEST*/
 .galleryTestCont{
