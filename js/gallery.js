@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	var folder = "images/GalleryPhotos2016/";
+	var folder = "../images/GalleryPhotos2016/";
 
 					$.ajax({
 					    url : folder,
