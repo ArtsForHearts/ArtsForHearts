@@ -10,20 +10,4 @@ layout: default
     		<a href="http://www.somedomain.com/images/image1_large.jpg">
         		<img src="http://www.somedomain.com/images/image1_small.jpg" title="photo1 title">
             </a>
-            <script>
-            	var folder = "images/GalleryPhotos2016/";
-
-				$.ajax({
-				    url : folder,
-				    success: function (data) {
-				        $(data).find("a").attr("href", function (i, val) {
-				            if( val.match(/\.(jpe?g|png|gif)$/) ) { 
-				                //$("#gallery").append( "<img src='"+ folder + val +"'>" );
-				                $("#gallery").append( "<a href='"+ folder + val +"'>" + "<img src=''>" + "</a>" );
-				            } 
-				        });
-				    }
-				});
-				$('#gallery').photobox('a',{ time:0 });
-			</script>
         </div>
