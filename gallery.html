@@ -1,0 +1,29 @@
+---
+title: Gallery
+layout: default
+---
+
+		<h1>Gallery</h1>
+		<p>Arts for Hearts will take place on Sunday, April 23, 2017 from 1:00-8:00 PM on the Johns Hopkins University Homewood Beach as a part of Alumni Weekend. Free admission! Food and beverages from food trucks and raffle tickets will be sold. 100% proceeds to the American Heart Association.</p>
+
+		<div id='gallery'>
+    		<a href="http://www.somedomain.com/images/image1_large.jpg">
+        		<img src="http://www.somedomain.com/images/image1_small.jpg" title="photo1 title">
+            </a>
+            <script>
+            	var folder = "images/GalleryPhotos2016/";
+
+				$.ajax({
+				    url : folder,
+				    success: function (data) {
+				        $(data).find("a").attr("href", function (i, val) {
+				            if( val.match(/\.(jpe?g|png|gif)$/) ) { 
+				                //$("#gallery").append( "<img src='"+ folder + val +"'>" );
+				                $("#gallery").append( "<a href='"+ folder + val +"'>" + "<img src=''>" + "</a>" );
+				            } 
+				        });
+				    }
+				});
+				$('#gallery').photobox('a',{ time:0 });
+			</script>
+        </div>
