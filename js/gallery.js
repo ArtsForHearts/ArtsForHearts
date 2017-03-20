@@ -5,7 +5,7 @@ $(document).ready(function(){
 					    url : folder,
 					    success: function (data) {
 					        $(data).find("a").attr("href", function (i, val) {
-					            if( val.match(/\.(jpe?g|png|gif)$/) ) { 
+					            if( val.match(/\.(jpe?g|png|gif|JPG)$/) ) { 
 					                //$("#gallery").append( "<img src='"+ folder + val +"'>" );
 					                $("#gallery").append( "<a href='"+ folder + val +"'>" + "<img src=''>" + "</a>" );
 					            } 
