@@ -14,6 +14,6 @@ var grabImages = function(){
 	});
 };
 $(document).ready(function(){
-	grabImages();
+	grabImages;
 	$('#gallery').photobox('a',{ time:0 });
 });
