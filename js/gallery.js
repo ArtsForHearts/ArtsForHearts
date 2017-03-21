@@ -1,7 +1,7 @@
 $(document).ready(function(){
-	var folder = "../images/GalleryPhotos2016/";
+	var folder = "../images/GalleryPhotos2016";
 
-
+				var grabImages = function(){
 					$.ajax({
 					    url : folder,
 					    success: function (data) {
@@ -13,6 +13,7 @@ $(document).ready(function(){
 					        });
 					    }
 					});
-					$('#gallery').photobox('a',{ time:0 });
+				}
+				$('#gallery').photobox('a',{ time:0 });
 
 });
