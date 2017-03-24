@@ -13,6 +13,9 @@ var grabImages = function(){
 				//} 
 			});
 		}
+		error: function(xhr, errorText, errorThrown){
+            alert('request failed: '+errorText);
+        } 
 	});
 };
 $(document).ready(function(){
