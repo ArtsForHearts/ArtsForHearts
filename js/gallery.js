@@ -4,11 +4,11 @@ var grabImages = function(){
 	$.ajax({
 		url : folder,
 		success: function (data) {
-			Console.log("Success");
+			console.log("Success");
 			$(data).find("a").attr("href", function (i, val) {
 				//if( val.match(/\.(jpe?g|png|gif|JPG)$/) ) { 
 					//$("#gallery").append( "<img src='"+ folder + val +"'>" );
-					Console.log("image loaded");
+					console.log("image loaded");
 					$("#gallery").append( "<a href='"+ folder + val +"'>" + "<img src=''>" + "</a>" );
 				//} 
 			});
