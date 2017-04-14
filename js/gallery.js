@@ -1,24 +1,21 @@
-var folder = "../images/GalleryPhotos2016";
+//var folder = "../images/GalleryPhotos2016";
 
-var grabImages = function(){
-	$.ajax({
-		url : folder,
-		success: function (data) {
-			console.log("Success");
-			$(data).find("a").attr("href", function (i, val) {
+//var grabImages = function(){
+	//$.ajax({
+		//url : folder,
+		//success: function (data) {
+			//console.log("Success");
+			//$(data).find("a").attr("href", function (i, val) {
 				//if( val.match(/\.(jpe?g|png|gif|JPG)$/) ) { 
 					//$("#gallery").append( "<img src='"+ folder + val +"'>" );
-					console.log("image loaded");
-					$("#gallery").append( "<a href='"+ folder + val +"'>" + "<img src=''>" + "</a>" );
+					//console.log("image loaded");
+					//$("#gallery").append( "<a href='"+ folder + val +"'>" + "<img src=''>" + "</a>" );
 				//} 
-			});
-		}
-		error: function(xhr, errorText, errorThrown){
-            alert('request failed: '+errorText);
-        } 
-	});
-};
+			//});
+		//}
+	//});
+//};
 $(document).ready(function(){
-	grabImages;
+	//grabImages;
 	$('#gallery').photobox('a',{ time:0 });
 });
