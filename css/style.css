@@ -525,7 +525,9 @@ footer, .push{
     background-size: cover;
 }
 
-
+#gallery{
+    text-align:center;
+}
 
 
 /*Media Queries*/
