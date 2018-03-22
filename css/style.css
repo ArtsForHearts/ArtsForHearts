@@ -99,8 +99,8 @@ p{
 
 .header-nav li {
 	display: inline-block;
-	/*width: 19%;*/
-    width: 15.5%;
+	width: 19%;
+    /*width: 15.5%;*/
 	text-align: center;
 	margin: .5%;
 	background: rgb(216, 56, 56);
