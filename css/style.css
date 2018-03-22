@@ -394,6 +394,9 @@ footer {
     text-decoration: none;
     color: black;
 }
+.dullLink:hover{
+    color:#0000EE;
+}
 
 /*Contact Page*/
 label{
