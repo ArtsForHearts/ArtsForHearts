@@ -390,6 +390,10 @@ footer {
     letter-spacing: 1px;
     margin: 5px auto;
 }
+.dullLink {
+    text-decoration: none;
+    color: black;
+}
 
 /*Contact Page*/
 label{
