@@ -53,8 +53,12 @@ p{
 
 .homeDate{
 	font-family:Georgia;
-	margin: 2.5px;
+	margin: .5px;
 	font-size: 1.75em;
+}
+
+.homeDateContainer{
+        margin-top: 25px;
 }
 
 .banner {
