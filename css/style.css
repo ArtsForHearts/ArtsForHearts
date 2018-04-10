@@ -598,6 +598,9 @@ footer, .push{
     .Headshot{
         max-height: 250px; //Limits size of photos for better viewing on mobile
     }
+    .previousYear{
+        font-size: 16px; //Decreases font size on mobile to prevent line break
+    }
 }
 @media(min-width: 685px){
 	.navbar{
