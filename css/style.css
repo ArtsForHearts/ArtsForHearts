@@ -75,8 +75,9 @@ p{
 }
 
 .menuButton {
-	height: 30px;
-	line-height:30px;
+	height: 35px;
+	line-height:35px;
+    font-size:20px;
 	background: lightgray;
 	text-align: center;
 	display:none;
@@ -164,16 +165,17 @@ footer {
 .homeDonate{
 	margin: 5px auto;
     display: block;
-    height: 35px;
-    line-height: 35px;
+    height: 40px;
+    line-height: 40px;
     text-decoration: none;
-    width: 125px;
+    width: 140px;
     background: red;
     border-radius: 5px;
     color: white;
     text-align: center;
     transition: .2s;
     font-weight: 600;
+    font-size:1.1em;
 }
 
 .homeDonate:hover span {
@@ -577,13 +579,20 @@ footer, .push{
 		border-bottom: 1px solid rgb(187, 187, 187);
 		margin: 0;
 		box-shadow: none;
+        height: 35px;
+        line-height: 35px;
+
 	}
 	body{
 		background:white;
 	}
 	.header-nav li a{
 		transition: none;
+        padding:0;
 	}
+    .Headshot{
+        max-height: 250px; //Limits size of photos for better viewing on mobile
+    }
 }
 @media(min-width: 685px){
 	.navbar{
